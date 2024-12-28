@@ -5,8 +5,10 @@
 - Videos Bookmarks:
     - 字幕库:
         - href: https://zimuku.org/
-          icon: https://zimuku.org/images/v2/favicon.png
     - 射手网:
         - href: https://assrt.net/
           icon: https://assrt.net/favicon.ico
+    - YTS:
+        - href: https://yts.mx/
+          icon: https://yts.mx/assets/images/website/favicon.ico
 
