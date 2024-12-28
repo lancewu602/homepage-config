@@ -2,17 +2,11 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/bookmarks
 
-- Developer:
-    - Github:
-        - abbr: GH
-          href: https://github.com/
+- Videos Bookmarks:
+    - 字幕库:
+        - href: https://zimuku.org/
+          icon: https://zimuku.org/images/v2/favicon.png
+    - 射手网:
+        - href: https://assrt.net/
+          icon: https://assrt.net/favicon.ico
 
-- Social:
-    - Reddit:
-        - abbr: RE
-          href: https://reddit.com/
-
-- Entertainment:
-    - YouTube:
-        - abbr: YT
-          href: https://youtube.com/

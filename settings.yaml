@@ -2,6 +2,21 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/settings/
 
-providers:
-  openweathermap: openweathermapapikey
-  weatherapi: weatherapiapikey
+showStats: true
+
+layout:
+    Videos Bookmarks:
+        style: row
+        columns: 6
+    Monitor:
+        style: row
+        columns: 4
+    Service:
+        style: column
+        columns: 2
+        Common:
+            style: row
+            columns: 1
+        Immich:
+            style: row
+            columns: 1

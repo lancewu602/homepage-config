@@ -5,8 +5,15 @@
 - resources:
     cpu: true
     memory: true
-    disk: /
+    disk:
+        - /
+    cputemp: true
+    tempmin: 0 # optional, minimum cpu temp
+    tempmax: 100 # optional, maximum cpu temp
+    uptime: true
+    refresh: 5000 # optional, in ms
+    network: true # optional, uses 'default' if true or specify a network interface name
 
-- search:
-    provider: duckduckgo
-    target: _blank
+#- search:
+#    provider: duckduckgo
+#    target: _blank

@@ -2,17 +2,50 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- Common:
+    - qBittorrent:
+        href: http://192.168.31.50:8500/
+        icon: qbittorrent.png
+        server: my-docker
+        container: qbittorrent
+        widget:
+            type: qbittorrent
+            url: http://192.168.31.50:8500
+            username: admin
+            password: admin007
+            enableLeechProgress: true
+    - AList:
+        href: http://192.168.31.50:8100/
+        icon: alist.png
+        server: my-docker
+        container: alist
+    - stirling-pdf:
+        href: http://192.168.31.50:8700/
+        icon: stirling-pdf.png
+        server: my-docker
+        container: stirling-pdf
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+- Immich:
+    - server:
+        href: http://192.168.31.50:8300/
+        icon: immich.png
+        server: my-docker
+        container: immich_server
+        widget:
+            type: immich
+            url: http://192.168.31.50:8300
+            key: g2wqjN3KiTtBvBC9kAjdQyzfvHLq38qCOjyP5RYSm6Q
+            version: 2
+    - machine_learning:
+        icon: immich.png
+        server: my-docker
+        container: immich_machine_learning
+    - postgres:
+        icon: postgres.png
+        server: my-docker
+        container: immich_postgres
+    - redis:
+        icon: redis.png
+        server: my-docker
+        container: immich_redis
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
