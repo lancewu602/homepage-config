@@ -11,4 +11,7 @@
     - YTS:
         - href: https://yts.mx/
           icon: https://yts.mx/assets/images/website/favicon.ico
+    - 1lou:
+        - href: https://www.1lou.me/
+          icon: https://www.1lou.me/view/img/favicon.ico
 
